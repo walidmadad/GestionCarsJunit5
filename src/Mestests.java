@@ -16,7 +16,8 @@ class Mestests {
 	 */
 	@Test
 	void testCar() {
-		fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		
 	}
 
 	/**
@@ -24,7 +25,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetMarque() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Porshe", "911");
+		
+		assertSame("Porshe",c1.getMarque());
 	}
 
 	/**
@@ -32,7 +36,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetModele() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Porshe", "911");
+		
+		assertSame("911",c1.getModele());
 	}
 
 	/**
@@ -40,7 +47,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetPrixAchat() {
-		fail("Not yet implemented");
+		
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		assertEquals(8000,c1.getPrixAchat());
 	}
 
 	/**
@@ -48,7 +58,9 @@ class Mestests {
 	 */
 	@Test
 	void testGetPrixVente() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		assertEquals(10000,c1.getPrixVente());
 	}
 
 	/**
@@ -56,7 +68,9 @@ class Mestests {
 	 */
 	@Test
 	void testGetNbportes() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "408");
+		assertEquals(3,c1.getNbportes());
 	}
 
 	/**
@@ -65,9 +79,9 @@ class Mestests {
 	@Test
 	void testGetQteStock() {
 		//fail("Not yet implemented");
-		Car mycar1;
-		mycar1 = new Car("Porsche", "911 Carrera 4");
-		assertEquals(0,mycar1.getQteStock());
+		
+		Car c1 = new Car("Peugeot", "408");
+		assertEquals(10,c1.getQteStock());
 	}
 
 	/**
@@ -75,8 +89,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetPuissanceCv() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c2 = new Car("Porshe", "911");
 		
+		assertSame(20,c2.getPuissanceCv());
 	}
 
 	/**
@@ -84,7 +100,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetKilometrage() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c2 = new Car("Porshe", "911");
+		
+		assertEquals(260,c2.getKilometrage());
 	}
 
 	/**
@@ -92,7 +111,10 @@ class Mestests {
 	 */
 	@Test
 	void testGetNeuve() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		
+		Car c3 = new Car("Dacia","Duster");
+		assertTrue(c3.getNeuve());
 	}
 
 	/**
@@ -100,7 +122,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetMarque() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setMarque("Peugeot");
 	}
 
 	/**
@@ -108,7 +132,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetModele() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setModele("208");
 	}
 
 	/**
@@ -116,7 +142,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetPrixAchat() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setPrixAchat(8000);
 	}
 
 	/**
@@ -124,7 +152,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetPrixVente() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setPrixVente(10000);
 	}
 
 	/**
@@ -132,7 +162,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetNbportes() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setNbportes(3);
 	}
 
 	/**
@@ -140,7 +172,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetQteStock() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setQteStock(10);
 	}
 
 	/**
@@ -148,7 +182,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetPuissanceCv() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setPuissanceCv(20);
 	}
 
 	/**
@@ -156,7 +192,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetKilometrage() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setKilometrage(260);
 	}
 
 	/**
@@ -164,7 +202,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetNeuve() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setNeuve(true);
 	}
 
 	/**
@@ -172,7 +212,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetQteStockplus() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setQteStockplus(11);
 	}
 
 	/**
@@ -180,7 +222,9 @@ class Mestests {
 	 */
 	@Test
 	void testVerifStocksuffisant() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.verifStocksuffisant(9);
 	}
 
 	/**
@@ -188,7 +232,9 @@ class Mestests {
 	 */
 	@Test
 	void testSetQteStockMoins() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.setQteStockMoins(8);
 	}
 
 	/**
@@ -196,7 +242,9 @@ class Mestests {
 	 */
 	@Test
 	void testCarEnChaine() {
-		fail("Not yet implemented");
+		//fail("Not yet implemented");
+		Car c1 = new Car("Peugeot", "208");
+		c1.CarEnChaine();
 	}
 
 	
