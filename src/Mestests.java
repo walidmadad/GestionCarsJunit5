@@ -5,10 +5,6 @@ import org.junit.jupiter.api.Test;
  * 
  */
 
-/**
- * @author operart
- *
- */
 class Mestests {
 
 	/**
